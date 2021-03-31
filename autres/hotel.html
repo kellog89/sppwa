@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <link rel="manifest" href="manifest.json">
+  <title>Hotel</title>
+  <style>
+    body {
+      background: #a4cdee;
+      background-color: ;
+    }
+.cont-form {
+  background-color: #249cff;
+
+}
+   .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url('/imgh/HotelBudapest300x200.jpg');  /* https://bbbootstrap.com/snippets/bootstrap-signup-form-image-left-side-40740957 */
+    background-size: cover
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron cont-form mt-3">
+      <form  class="form-container">
+        <div class="image-holder"></div>
+          <div class="form-group">
+          <img class="float-left img-fluid mr-3" src="imgh/HotelBudapest300x200.jpg" alt="Hotel"> 
+            <div class="row">
+              <div class="col-sm-3">
+                <label for="idnom">Nom: </label>
+                <input type="text" class="form-control col-sm-3" id="idnom">
+              </div>
+            <div class="col-sm-3">
+              <label for="idnom">Prénom: </label>
+              <input type="text" class="form-control col-sm-3" id="idprenom">
+            </div>
+        </div>
+        <div class="row">
+        <label for="idnom">Nb d'Adultes </label>
+        <input type="number" class="form-control col-sm-3" id="idnbadultes">
+        <label for="idnom">Nb d'enfants </label>
+        <input type="number" class="form-control col-sm-3" id="idnbenfants">
+        <label for="idnom"> Date d'arrivée </label>
+        <input type="date" class="form-control col-sm-3" id="iddatearrivee">
+        <label for="idnom">Date de départ</label>
+        <input type="date" class="form-control col-sm-3" id="iddatedepart">
+      </div>
+        <label for="idnom">Nom: </label>
+        <input type="radio" class="form-control col-sm-3" id="idoptions">
+        <label for="idnom">Nom: </label>
+        <input type="checkbox" class="form-control col-sm-3" id="idlocation">
+        <label for="idnom">Nom: </label>
+        <button type="submit" class="btn btn-success float-right m-2" id="idsubmit">Réserver</button>
+        </div>
+
+      </form>
+     
+    </div>
+  </div>
+</body>
+</html>
