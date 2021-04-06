@@ -63,16 +63,6 @@ if ('serviceWorker' in navigator) {
 }
 //else {alert('nav ko')};
 
-if(window.caches){
-    caches.open("PWA-CHAT").then(
-      (cache)=>{
-        cache.addAll([
-          'index.php',
-          'sw.js'
-        ])
-      }
-    )
-}
 function getLocaltime() {
   var tzoffset = (new Date()).getTimezoneOffset() * 60000; //offset in milliseconds
   var localISOTime = (new Date(Date.now() - tzoffset)).toISOString().substring(11, 19) ;
