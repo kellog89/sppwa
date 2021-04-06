@@ -1,3 +1,3 @@
-# sppwa
+# SPPWA
 pwa unistra
 # --------- on main
