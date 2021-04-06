@@ -5,7 +5,7 @@ self.addEventListener('install', evt=>{
   caches.open('PWA-CHAT2').then(
     (cache)=>{
       cache.addAll([
-        'index.php',
+        'index.html',
         'sw.js'
       ])
     })
